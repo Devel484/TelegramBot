@@ -27,7 +27,7 @@ class EchoBotGen3(threading.Thread):
         # PLEASE GET YOUR OWN TOKEN FROM BOTFATHER!!!
         #
         #
-        updater = Updater('730928118:AAGiHLxiZDnOZcLcpn2Al15Ur_xiDfsNp9s')
+        updater = Updater('')
         job_queue = updater.job_queue
         # Get the dispatcher to register handlers
         dp = updater.dispatcher
